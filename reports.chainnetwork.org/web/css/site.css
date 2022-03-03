@@ -1,0 +1,229 @@
+html,
+body {
+    height: 100%;
+}
+
+body, html {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #114;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#titleBar {
+ /* height: 80px; */
+  background-color: #3475b4;
+  overflow: hidden;
+  border-bottom: 1px solid #3475b3;
+  -moz-box-shadow:    0px 0px 10px 3px #BBC;
+  -webkit-box-shadow: 0px 0px 10px 3px #BBC;
+  box-shadow:         0px 0px 10px 3px #BBC;
+  color: #ffffff;
+}
+#titleBar #container {
+  margin-top: 14px;
+}
+#titleBar h1 {
+  margin: 0 auto .5em auto;
+  padding: .2em;
+  color: #ffffff;
+  text-align: center;
+}
+#titleBar h1 {
+    color: #ffffff;
+}
+.navbar-brand{
+    color: #ffffff !important;
+}
+#intro {
+  background-color: #DDD;
+  margin: 1em 1em 0 1em;
+  padding: .75em;
+  text-align: center;
+  border: 1px solid #CCC;
+  font-size: 18px;
+}
+#intro p {
+  margin: .3em 0 .3em 0;
+}
+#outer-content {
+  max-width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#content {
+  margin: 1em auto 1em auto;
+  float: left;
+}
+#shiny{
+  float: left;
+  width: 305px;
+  margin-left: -330px;
+  padding-left: 20px;
+  border-left: 1px solid #AAA;
+}
+#shiny iframe {
+  margin-top: 30px;
+}
+.caption{
+  font-size: 13px;
+}
+code {
+  background-color: #E5E5E5;
+  border: 1px solid #AAA;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px; 
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 .5em 0 .5em;
+}
+    
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.thumbnail-img{
+    
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.btn-margin{
+    margin-right: 5px;
+}
+.chain-users-index{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.chain-sites-index{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
